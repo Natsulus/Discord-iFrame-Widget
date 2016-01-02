@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Whitney';
+  src: local('Whitney'), url("../font/Whitney-Medium.otf") format('opentype');
+}
+
+body {
+	color: white;
+	font-family: Whitney; /* or Whitney*/
+}

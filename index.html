@@ -1,0 +1,37 @@
+<html>
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+	<!-- frame-ancestors is currently not supported in meta tag (https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives#frame-ancestors)
+	<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' natsuworks.com *.natsuworks.com;">-->
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/discord.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/master.css" media="screen" title="default" charset="utf-8">
+	<link rel='stylesheet' href='css/jquery.scrollbar.css' />
+	<script src='js/jquery.scrollbar.min.js'></script>
+	<script type="text/javascript">
+		jQuery(function($){
+			$('.page-wrapper').scrollbar({scrollx: 'advanced'});
+		});
+	</script>
+	<style type="text/css">
+		.page-wrapper {
+			border: none;
+			height: calc(100% - 33px);
+			margin: 0;
+			padding: 0;
+			width: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="discord-title">
+		<h3 style="float:left">Title</h3>
+		<h3 style="float:right">Join Server</div>
+	</div>
+	<div class="page-wrapper scrollbar-macosx">
+		<p class="discord-channel">Online (0)</p>
+		<ul class="discord-userlist"></ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+body {
+    background: #2a2a2a;
+    color: #aaa;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.discord-title {
+    text-align: left;
+    margin: -1px!important;
+    height: 32px;
+    line-height: 32px!important;
+    background-color: #333;
+    border: solid 1px #222!important;
+    padding-left: 10px!important;
+    font-weight: bold!important;
+    font-size: 1.17em!important;
+}
+
+.title-text {
+    float: left;
+}
+.invite-text {
+    float: right;
+    color: #e9e9e9;
+    padding-right: 8px!important;
+}
+.invite-text a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 60%!important;
+}
+
+.invite-button {
+    padding: 3px 5px!important;
+    background: #2461b2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+    background: -moz-linear-gradient(top, #888, #575757);
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #555!important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.invite-button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+    background: -moz-linear-gradient(top, #757575, #4b4b4b);
+}
+.invite-button:active {
+    color: #afafaf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+    background: -moz-linear-gradient(top, #575757, #888);
+}
+
+.discord-title div,
+.discord-title span,
+.discord-title applet,
+.discord-title object,
+.discord-title iframe,
+.discord-title h1,
+.discord-title h2,
+.discord-title h3,
+.discord-title h4,
+.discord-title h5,
+.discord-title h6,
+.discord-title p,
+.discord-title blockquote,
+.discord-title pre,
+.discord-title a,
+.discord-title abbr,
+.discord-title acronym,
+.discord-title address,
+.discord-title big,
+.discord-title cite,
+.discord-title code,
+.discord-title del,
+.discord-title dfn,
+.discord-title em,
+.discord-title img,
+.discord-title ins,
+.discord-title kbd,
+.discord-title q,
+.discord-title s,
+.discord-title samp,
+.discord-title small,
+.discord-title strike,
+.discord-title strong,
+.discord-title sub,
+.discord-title sup,
+.discord-title tt,
+.discord-title var,
+.discord-title b,
+.discord-title u,
+.discord-title i,
+.discord-title center,
+.discord-title dl,
+.discord-title dt,
+.discord-title dd,
+.discord-title ol,
+.discord-title ul,
+.discord-title li,
+.discord-title fieldset,
+.discord-title form,
+.discord-title label,
+.discord-title legend,
+.discord-title table,
+.discord-title caption,
+.discord-title tbody,
+.discord-title tfoot,
+.discord-title thead,
+.discord-title tr,
+.discord-title th,
+.discord-title td,
+.discord-title article,
+.discord-title aside,
+.discord-title canvas,
+.discord-title details,
+.discord-title embed,
+.discord-title figure,
+.discord-title figcaption,
+.discord-title footer,
+.discord-title header,
+.discord-title hgroup,
+.discord-title menu,
+.discord-title nav,
+.discord-title output,
+.discord-title ruby,
+.discord-title section,
+.discord-title summary,
+.discord-title time,
+.discord-title mark,
+.discord-title audio,
+.discord-title video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle
+}
+.discord-title article,
+.discord-title aside,
+.discord-title details,
+.discord-title figcaption,
+.discord-title figure,
+.discord-title footer,
+.discord-title header,
+.discord-title hgroup,
+.discord-title menu,
+.discord-title nav,
+.discord-title section {
+    display: block
+}
+.discord-title body {
+    line-height: 1
+}
+.discord-title ol,
+.discord-title ul {
+    list-style: none
+}
+.discord-title blockquote,
+.discord-title q {
+    quotes: none
+}
+.discord-title blockquote:before,
+.discord-title blockquote:after,
+.discord-title q:before,
+.discord-title q:after {
+    content: '';
+    content: none
+}
+.discord-title table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.discord-channel {
+    font-weight: bold!important;
+    list-style-type: none!important;
+    padding-left: 10px!important;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.discord-userlist {
+    padding-left: 14px!important;
+    list-style-type: none!important;
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}
+.discord-user {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden
+}
+.discord-user span {
+    font-size: .8em;
+    opacity: .5
+}
+
+.discord-user-status {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    border: solid thin #fff!important;
+    border-color: #3a3a3a!important;
+    top: 14px;
+    left: 14px
+}
+.discord-online {
+    background-color: #43b581
+}
+.discord-idle {
+    background-color: #faa61a
+}
+.discord-avatar {
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    border: solid 2px #fff!important;
+    border-color: #3a3a3a!important;
+    display: inline;
+    margin-right: 5px!important;
+    vertical-align: middle
+}
+.discord-allusers-toggle {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.discord-users-online {
+    font-size: .75em!important;
+    margin: 10px 10px 0 0!important;
+    text-align: right
+}
+.discord-join {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px!important;
+    color: white;
+    background-color: #2461b2;
+    position: fixed;
+    bottom: 0;
+}
+.discord-join a {
+    color: #fff;
+    text-decoration: none
+}
+.discord-join:hover {
+    background-color: #1b4a88
+}
